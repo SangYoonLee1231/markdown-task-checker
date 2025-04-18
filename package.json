@@ -1,0 +1,21 @@
+{
+  "name": "markdown-task-checker",
+  "version": "0.1.0",
+  "description": "A CLI tool to check markdown task list completion",
+  "main": "dist/index.js",
+  "bin": {
+    "markdown-task-checker": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "markdown",
+    "task",
+    "cli",
+    "checklist"
+  ],
+  "author": "당신의 이름",
+  "license": "MIT"
+}
