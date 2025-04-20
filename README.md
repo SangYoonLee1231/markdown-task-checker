@@ -1,5 +1,9 @@
 # 📝 markdown-task-checker
 
+[![npm version](https://img.shields.io/npm/v/markdown-task-checker.svg)](https://www.npmjs.com/package/markdown-task-checker)
+[![npm downloads](https://img.shields.io/npm/dw/markdown-task-checker.svg)](https://www.npmjs.com/package/markdown-task-checker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > ✅ Check completion of markdown task lists from the command line!  
 > Perfect for validating PR checklists or tracking TODOs in your docs.
 
