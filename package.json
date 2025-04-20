@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "test": "jest",
     "build:cli": "tsc && cp dist/cli.js bin/cli.js"
   },
   "keywords": [
@@ -17,5 +18,10 @@
     "checklist"
   ],
   "author": "당신의 이름",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2"
+  }
 }
