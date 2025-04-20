@@ -1,19 +1,14 @@
 #!/usr/bin/env node
-
-import { readFileSync } from "fs";
-import { parseMarkdownTasks } from "./utils/parser";
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const fs_1 = require("fs");
+const parser_1 = require("./utils/parser");
 const filePath = process.argv[2];
-
 if (!filePath) {
-  console.error(" Please enter the Markdown file path as a factors.");
-  process.exit(1);
+    console.error("❌ Please provide a Markdown file path.");
+    process.exit(1);
 }
-
-const content = readFileSync(filePath, "utf-8");
-const result = parseMarkdownTasks(content);
-
+const content = (0, fs_1.readFileSync)(filePath, "utf-8");
+const result = (0, parser_1.parseMarkdownTasks)(content);
 console.log(`✅ ${result.checked} / ${result.total} tasks completed.`);
-console.log(
-  result.allChecked ? "🎉 All tasks are done!" : "📝 Some tasks remain."
-);
+console.log(result.allChecked ? "🎉 All tasks are done!" : "📝 Some tasks remain.");
