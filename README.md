@@ -63,21 +63,20 @@ markdown-task-checker [file.md]
 
 > 🤫 _These will be added soon! Stay tuned._
 
--->
-
 ---
+
+-->
 
 ## 🧪 Example Input (`example.md`)
 
-\`\`\`md
-
+```md
 # My Checklist
 
 - [x] Write the parser
 - [ ] Write tests
 - [x] Create CLI
 - [ ] Polish README
-      \`\`\`
+```
 
 ---
 
