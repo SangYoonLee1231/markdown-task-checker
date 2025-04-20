@@ -45,6 +45,8 @@ markdown-task-checker ./example.md
 
 ---
 
+<!--
+
 ## 🛠 CLI Options (예정 기능)
 
 ```bash
@@ -56,6 +58,8 @@ markdown-task-checker [file.md]
 - [ ] `--json`: Output as JSON
 
 > 🤫 _These will be added soon! Stay tuned._
+
+-->
 
 ---
 
@@ -101,4 +105,4 @@ markdown-task-checker example.md
 
 ## 🙌 Author
 
-Made with ❤️ by [SangYoon Lee](https://github.com/sangyoon-lee1231)
+Made with ❤️ by [Sang Yoon Lee / SYL](https://github.com/sangyoon-lee1231)
