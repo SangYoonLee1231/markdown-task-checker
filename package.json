@@ -1,6 +1,6 @@
 {
   "name": "markdown-task-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to check markdown task list completion",
   "main": "dist/index.js",
   "bin": {
